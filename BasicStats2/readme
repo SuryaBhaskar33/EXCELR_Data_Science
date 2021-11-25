@@ -1,1 +1,375 @@
+1. Look at the data given below. Plot the data, find the outliers and find out 𝜇,𝜎,𝜎2
 
+Name of company Measure X
+
+Allied Signal 24.23%
+
+Bankers Trust 25.53%
+
+General Mills 25.41%
+
+ITT Industries 24.14%
+
+J.P.Morgan & Co. 29.62%
+
+Lehman Brothers 28.25%
+
+Marriott 25.81%
+
+MCI 24.39%
+
+Merrill Lynch 40.26%
+
+Microsoft 32.95%
+
+Morgan Stanley 91.36%
+
+Sun Microsystems 25.99%
+
+Travelers 39.42%
+
+US Airways 26.71%
+
+Warner-Lambert 35.00%
+
+2.
+
+Answer the following three questions based on the box-plot above.
+
+(i) What is inter-quartile range of this dataset? (please approximate the numbers) In one line, explain what this value implies.
+
+ANSWER:
+
+IQR= Q3-Q1=12-5=7
+
+(ii) What can we say about the skewness of this dataset?
+
+ANSWER:
+
+It is positively skewed or Right skewed
+
+(iii) If it was found that the data point with the value 25 is actually 2.5, how would the new box-plot be affected?
+
+ANSWER:
+
+It will not have any Outlier because it is not far from the range or not far from the boxplot
+
+3.
+
+Answer the following three questions based on the histogram above.
+
+(i) Where would the mode of this dataset lie?
+
+Answer:
+
+Between the 5 and 8
+
+(ii) Comment on the skewness of the dataset.
+
+Answer:
+
+Right skewed
+
+(iii) Suppose that the above histogram and the box-plot in question 2 are plotted for the same dataset. Explain how these graphs complement each other in providing information about any dataset
+
+Answer:
+
+The Data is right skewed irrespective of whether it is histogram boxplot. We can see outlier in both cases datapoint at 25
+
+4. AT&T was running commercials in 1990 aimed at luring back customers who had switched to one of the other long-distance phone service providers. One such commercial shows a businessman trying to reach Phoenix and mistakenly getting Fiji, where a half-naked native on a beach responds incomprehensibly in Polynesian. When asked about this advertisement, AT&T admitted that the portrayed incident did not actually take place but added that this was an enactment of something that “could happen.” Suppose that one in 200 long-distance telephone calls is misdirected. What is the probability that at least one in five attempted telephone calls reaches the wrong number? (Assume independence of attempts.)
+
+Answer:
+
+Given that, one in 200 long-distance telephone calls is misdirected and To find that probability that at least one in five attempted telephone calls reaches the wrong number
+
+· Probability of call misdirecting (p)=1/200
+
+· Probability of call not Misdirecting (q)= 1-1/200=199/200
+
+· No of calls(n)=5
+
+P(x)= ⁿCₓ*pˣ*qⁿ⁻ˣ
+
+at least one in five attempted telephone calls reaches the wrong number
+
+=1-none of the call reaches to wrong number
+
+=1-P (0)
+
+=1- ⁿC0*(1/200) ^0*(199/200)^5-0
+
+=1-(199/200)^5
+
+=0.02475
+
+probability that at least one in five attempted telephone calls reaches the wrong number =0.02475
+
+5. Returns on a certain business venture, to the nearest $1,000, are known to follow the following probability distribution
+
+x P(x)
+
+-2,000 0.1
+
+-1,000 0.1
+
+0 0.2
+
+1000 0.2
+
+2000 0.3
+
+3000 0.1
+
+(i) What is the most likely monetary outcome of the business venture?
+
+(ii) Is the venture likely to be successful? Explain
+
+(iii) What is the long-term average earning of business ventures of this kind? Explain
+
+(iv) What is the good measure of the risk involved in a venture of this kind? Compute this measure
+
+Answer:
+
+most likely monetary outcome of the business venture is $2000 as it has maximum probability = 0.3
+
+E(X) P(x) E(X)P(X)
+
+-2,000 0.1 -200
+
+-1,000 0.1 -100
+
+0 0.2 0
+
+1000 0.2 200
+
+2000 0.3 600
+
+3000 0.1 300
+
+Expected value = ∑E(X)P(X) = 800
+
+long-term average earning of business ventures = $ 800
+
+venture is likely to be successful as Expected value is +ve = $ 800
+..........................................................................................................................
+1.	The time required for servicing transmissions is normally distributed with  = 45 minutes and  = 8 minutes. The service manager plans to have work begin on the transmission of a customer’s car 10 minutes after the car is dropped off and the customer is told that the car will be ready within 1 hour from drop-off. What is the probability that the service manager cannot meet his commitment? 
+
+A.	0.3875   
+B.	0.2676   
+C.	0.5   
+D.	0.6987 
+Answer:
+           = 45
+          = 8
+        Since work begins after 10 min, so the time left to repair is 50 min.
+Probability that the service manager cannot meet his commitment=1-probability that the Service manager meet his commitment
+P(X>50) =1-P(X<50)
+Convert 50 to Z-Score
+P(X<=50) =P(Z<=(50-45)/8)=P(Z(0.625)) =0 .73237
+P(X>50) =1- 0.73237=0.26763=26.73%
+Or
+ 
+
+
+
+         
+
+2.	The current age (in years) of 400 clerical employees at an insurance claims processing center is normally distributed with mean  = 38 and Standard deviation  =6. For each statement below, please specify True/False. If false, briefly explain why.
+A.	More employees at the processing center are older than 44 than between 38 and 44.
+B.	A training program for employees under the age of 30 at the center would be expected to attract about 36 employees.
+ 
+
+3.	If X1 ~ N(μ, σ2) and X2 ~ N(μ, σ2) are iid normal random variables, then what is the difference between 2 X1 and X1 + X2? Discuss both their distributions and parameters.       
+Answer:
+2 X 1 = N(2μ, 4σ 2 )
+X 1 + X 2 = N(µ+µ, σ^+σ^2 ) = N(2µ, 2σ^2 )
+Sum of normally distributed random variables are normally distributed.
+2X1 –( X 1 + X 2 ) = N(2μ, 4σ^2 ) - N(2μ, 2σ^2 ) = N(6,σ^2 )
+4.	Let X ~ N (100, 202). Find two values, a and b, symmetric about the mean, such that the probability of the random variable taking a value between them is 0.99. 
+
+A.	90.5, 105.9 
+B.	80.2, 119.8 
+C.	22, 78 
+D.	48.5, 151.5 
+E.	90.1, 109.9
+
+ 
+
+5.	Consider a company that has two different divisions. The annual profits from the two divisions are independent and have distributions Profit1 ~ N(5, 32) and Profit2 ~ N(7, 42) respectively. Both the profits are in $ Million. Answer the following questions about the total profit of the company in Rupees. Assume that $1 = Rs. 45
+Answer:
+Division1 = Profit1 ~ N (5, 3^2) = N (Ẋ1=5, S1^2= 3^2) 
+Division2 = Profit2~ N (7, 4^2) = N (Ẋ2=7, S2^2 = 4^2)
+µ = Company = (Profit1 + Profit2) = Mean Profit of Diivision1 + Division2= 5 + 7 = 12
+Mean Profit of Company in rupees = 12 * 45 = 540 million
+
+A.	Specify a Rupee range (centered on the mean) such that it contains 95% probability for the annual profit of the company.
+Answer:
+               Variance of the Company Distribution =𝜎^2 = 3^2 + 4^2 = 9 + 16 = 25 = 52
+Standard Deviation of the Company Distribution = 𝜎 = √52 = 5
+Confidence Level = CL = 0.95
+Confidence Interval = CI cc= 540 ± 1.96(225) = (99,981) In Millions
+
+B.	Specify the 5th percentile of profit (in Rupees) for the company
+To calculate 5th percentile from Z table Zα/2= 0.05 = -1.645
+5th percentile = µ - Zα/2= 0.05(𝜎)= 540 – 1.645(225) = 169.87 million
+
+C.	Which of the two divisions has a larger probability of making a loss in a given year?
+Probability of Company 1 Making Loss = P (X<0)
+Zx1=0 = (0−225)/(135) = 1.667
+Probability at x < 0 = P(Zx1=0) = 0.0485 = 4.85%
+Probability of Company 2 Making Loss = P (X<0)
+Zx2=0 = (0−315)/ (180) = −1.75
+Probability at x < 0 = P(Zx2=0) = 0.0401 = 4.01%
+Therefore, Company 1 has High Probability of Making a loss in a given year
+
+...................................................................................................................................................................
+1.	For each of the following statements, indicate whether it is True/False. If false, explain why.
+
+I.	The sample size of the survey should at least be a fixed percentage of the population size in order to produce representative results. -TRUE
+
+II.	The sampling frame is a list of every item that appears in a survey sample, including those that did not respond to questions.- FALSE
+
+III.	Larger surveys convey a more accurate impression of the population than smaller surveys.- TRUE
+
+
+2.	PC Magazine asked all of its readers to participate in a survey of their satisfaction with different brands of electronics. In the 2004 survey, which was included in an issue of the magazine that year, more than 9000 readers rated the products on a scale from 1 to 10. The magazine reported that the average rating assigned by 225 readers to a Kodak compact digital camera was 7.5. For this product, identify the following:
+
+A.	The population- All readers of PC Magazine
+B.	The parameter of interest- Customer satisfaction on different brands of electronics
+C.	The sampling frame-9000
+D.	The sample size-225
+E.	The sampling design-Population---Sampling Frame---Sample
+F.	Any potential sources of bias or other problems with the survey or sample
+When we say there's potential bias, we should also be able to argue if the results will probably be an overestimate or an underestimate.
+Try to identify the source of bias in each scenario, and speculate on the direction of the bias (overestimate or underestimate).
+
+
+3.	For each of the following statements, indicate whether it is True/False. If false, explain why.
+
+I.	If the 95% confidence interval for the average purchase of customers at a department store is $50 to $110, then $100 is a plausible value for the population mean at this level of confidence. – TRUE
+•	95% confidence interval for the average purchase of customers at a department store is $50 to $110, That means the population sample mean will falls between $50 to $110.100 also satisfies this
+II.	If the 95% confidence interval for the number of moviegoers who purchase concessions is 30% to 45%, this means that fewer than half of all moviegoers purchase concessions. TRUE
+•	There is a 95% chance that only 30 to 45 % of moviegoers purchase concessions, which is less than 50%. this means that fewer than half of all moviegoers purchase concessions
+III.	The 95% Confidence-Interval for μ only applies if the sample data are nearly normally distributed. TRUE
+•	IF the sample is not normally distributed, then that samples includes less information of population or Error in sample selection
+4.	What are the chances that  ?
+
+A.	¼ 
+B.	½ 
+C.	¾ 
+D.	1
+Ans:D
+
+
+5.	In January 2005, a company that monitors Internet traffic (WebSideStory) reported that its sampling revealed that the Mozilla Firefox browser launched in 2004 had grabbed a 4.6% share of the market.
+
+I.	If the sample were based on 2,000 users, could Microsoft conclude that Mozilla has a less than 5% share of the market?
+Answer:
+Assume null hypothesis: H0: p>5%
+Alternate hypothesis: Ha: p<5%
+ 
+ As (p_value = 0.2058) > (α = 0.05) ; Accept Null Hypothesis i.e. Mozilla market share > 5% Thus, Microsoft cannot conclude that Mozilla has a less than 5% share of the market
+
+II.	WebSideStory claims that its sample includes all the daily Internet users. If that’s the case, then can Microsoft conclude that Mozilla has a less than 5% share of the market?
+Answer:
+We are given that Web Side Story claims that its sample includes all the daily
+Internet users. This means that the 4.6% is the population percentage. Comparing it with
+Microsoft&#39;s claim that Mozilla has a less than 5% share of the whole market is True. Hence,
+we can conclude that Mozilla has a less than 5% share of the market.
+
+
+6.	A book publisher monitors the size of shipments of its textbooks to university bookstores. For a sample of texts used at various schools, the 95% confidence interval for the size of the shipment was 250 ± 45 books. Which, if any, of the following interpretations of this interval are correct?
+
+A.	All shipments are between 205 and 295 books. FALSE
+
+B.	95% of shipments are between 205 and 295 books. TRUE
+
+C.	The procedure that produced this interval generates ranges that hold the population mean for 95% of samples.
+TRUE
+D.	If we get another sample, then we can be 95% sure that the mean of this second sample is between 205 and 295. TRUE
+
+E.	We can be 95% confident that the range 160 to 340 holds the population mean. FALSE
+
+7.	Which is shorter: a 95% z-interval or a 95% t-interval for μ if we know that σ =s?
+
+A.	The z-interval is shorter
+B.	The t-interval is shorter
+C.	Both are equal
+D.	We cannot say
+Answer:
+     The z-interval is shorter
+
+
+Questions 8 and 9 are based on the following: To prepare a report on the economy, analysts need to estimate the percentage of businesses that plan to hire additional employees in the next 60 days.
+
+8.	How many randomly selected employers (minimum number) must we contact in order to guarantee a margin of error of no more than 4% (at 95% confidence)?
+
+A.	600
+B.	400
+C.	550
+D.	1000
+ 
+Answer:
+	600
+9.	Suppose we want the above margin of error to be based on a 98% confidence level. What sample size (minimum) must we now use?
+
+A.	1000
+B.	757
+C.	848
+D.	543
+Answer:
+848
+
+.................................................................................................................................................
+	Examine the following normal Quantile plots carefully. Which of these plots indicates that the data …
+	Are nearly normal? -C
+	Have a bimodal distribution? (One way to recognize a bimodal shape is a “gap” in the spacing of adjacent data values.)- D
+	Are skewed (i.e., not symmetric)? -A, B
+	Have outliers on both sides of the center? -D
+
+ 
+
+
+	For each of the following statements, indicate whether it is True/False. If false, explain why.
+
+The manager of a warehouse monitors the volume of shipments made by the delivery team. The automated tracking system tracks every package as it moves through the facility. A sample of 25 packages is selected and weighed every day. Based on current contracts with customers, the weights should have μ = 22 lbs. and σ = 5 lbs.
+
+	Before using a normal model for the sampling distribution of the average package weights, the manager must confirm that weights of individual packages are normally distributed.
+TRUE
+	The standard error of the daily average SE(x ̅) = 1.
+TRUE
+Standard error equal to standard deviation divided by square root of samplesize =
+ 5/sqrt(25) =1
+
+
+
+
+
+	Auditors at a small community bank randomly sample 100 withdrawal transactions made during the week at an ATM machine located near the bank’s main branch. Over the past 2 years, the average withdrawal amount has been $50 with a standard deviation of $40. Since audit investigations are typically expensive, the auditors decide to not initiate further investigations if the mean transaction amount of the sample is between $45 and $55. What is the probability that in any given week, there will be an investigation?
+
+	1.25%
+	2.5%
+	10.55%
+	21.1%
+	50%
+ 
+
+	The auditors from the above example would like to maintain the probability of investigation to 5%. Which of the following represents the minimum number transactions that they should sample if they do not want to change the thresholds of 45 and 55? Assume that the sample statistics remain unchanged.
+
+	144
+	150
+	196
+	250
+	Not enough information
+ 
+
+
+	An educational startup that helps MBA aspirants write their essays is targeting individuals who have taken GMAT in 2012 and have expressed interest in applying to FT top 20 b-schools. There are 40000 such individuals with an average GMAT score of 720 and a standard deviation of 120. The scores are distributed between 650 and 790 with a very long and thin tail towards the higher end resulting in substantial skewness. Which of the following is likely to be true for randomly chosen samples of aspirants?
+
+	The standard deviation of the scores within any sample will be 120. FALSE
+	The standard deviation of the mean of across several samples will be 120. FALSE
+	The mean score in any sample will be 720. TRUE
+	The average of the mean across several samples will be 720. TRUE
+	The standard deviation of the mean across several samples will be 0.60 TRUE
+	
+......................................................................................................................................................................................................................
