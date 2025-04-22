@@ -1,4 +1,4 @@
-# 📊 EXCELR Data Science Internship Portfolio
+# 📊 EXCELR Data Science Internship Training Portfolio
 
 This repository showcases a series of hands-on Data Science assignments and mini-projects completed during my internship with **EXCELR**. The content covers foundational concepts, machine learning models, and advanced techniques using Python and Jupyter Notebooks.
 
